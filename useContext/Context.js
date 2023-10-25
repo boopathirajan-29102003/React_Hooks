@@ -23,7 +23,6 @@ function Context() {
 
 const Button = (val) => {
   const theme = useContext(ThemeContext);
-  console.log(theme)
   return (
     <panel title='welcome'>
       <button className={theme} >Hello </button>
